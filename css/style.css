@@ -104,6 +104,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
 }
 
 input,
@@ -183,7 +184,6 @@ body {
   line-height: 1, 5;
   font-size: calc(35px + 31 * ((100vw - 320px) / 880));
   position: relative;
-  overflow-x: hidden;
 }
 
 body.dis-active {
